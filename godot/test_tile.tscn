@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0b423ae8prup"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kvoaj"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_oh3b7"]
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.09134, -0.0347731)
+material_override = SubResource("StandardMaterial3D_kvoaj")
+mesh = SubResource("BoxMesh_oh3b7")
